@@ -1,0 +1,97 @@
+* {
+    background-color: rgb(51, 19, 82);
+    font-family: ubuntu;
+}
+
+.all {
+    display: block;
+    width: 500px;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+.todo-text {
+    color: black;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.add-btn {
+    padding: 7px 15px;
+    margin-left: 5px;
+    color: white;
+    background-color: darkorchid;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+#input {
+    color: white;
+    border: none;
+    background: none;
+}
+
+.todolist {
+    padding: 0;
+    margin: 0;
+    width: 500px;
+    min-height: 1px;
+}
+
+.fa-trash-alt {
+    color: red;
+}
+
+.fa-edit {
+    color: green;
+}
+
+.todolist li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+i {
+    color: black;
+    padding: 0 5px;
+}
+
+
+@media screen and (max-width:560px) {
+    .all {
+        width: auto;
+    }
+
+    .form {
+        width: auto;
+    }
+
+    .todolist {
+        width: auto;
+    }
+}
